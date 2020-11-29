@@ -24,6 +24,7 @@ hr{
 .container-centre{
     max-width: 600px;
     margin: auto;
+    padding: 1rem;
 }
 
 /**links**/
@@ -60,6 +61,8 @@ hr{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    margin: auto;
+    max-width: 700px;
 }
 
 .navigation .nav-brand{
@@ -81,6 +84,8 @@ hr{
 /**header**/
 .hero{
     padding: 2rem;
+    max-width: 700px;
+    margin: auto;
 }
 
 .hero .hero-img{
@@ -104,6 +109,8 @@ hr{
 
 .section{
     padding: 2rem;
+    max-width: 700px;
+    margin: auto;
 }
 .section h1{
     text-align: center; 
@@ -111,15 +118,19 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+    max-width: 700px;
 }
 
 /**footer**/
 .footer{
+    max-width: 732px;
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 0.5rem;
+    margin:auto;
+
 }
 
 .footer .link{

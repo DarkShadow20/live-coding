@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>blogs | kunalgupta</title>
+        <link href="/style.css" rel="stylesheet">
+        <link href="/blog.css" rel="stylesheet">
+        <link rel="icon" type="image/svg" href="/images/favicon.svg"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navigation container">
+            <div class="nav-brand">iAMDEVELOPER</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link" href='/index.html'>home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href='/projects.html'>projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link link-active" href='/blogs.html'>blogs</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="blog"> 
+            <h1 class="blog-heading" ><strong> CLI Quiz using nodeJS </strong></h1>
+            <small>november 2020</small>
+            <small class="secondary">3 min read</small>
+            <img class="display-img" src="/images/quiz.jpg">
+        </header>
+
+        <section class="blog">
+            <p >Your average neighborhood programmer’s first blog about a fun CLI Quiz made in JavaScript. I decided to share my first ever implementation as I thought it would help others who want to start in JavaScript, open for extension, and it requires only JavaScript.
+            Writing this implementation was fun and challenging (once you find solutions for all the problems you encounter along the way). I got some sense of accomplishment after working on this.
+            In this article, I will present the solution that I ended up using. Let us dive in.</p>
+
+            <h1>Features of the CLI QUIZ</h1>
+            <p>1. One of the assumptions when I started on this project was to make this project understandable to anyone new to <strong>JavaScript</strong>, just like me. So I chose the online platform <strong>repl</strong> in which you start with writing and no manual setup.</p>
+            <p>2. It has basic concepts of objects, an array of objects, basic looping, functions, and conditional statements.</p>
+            <p>3 I have used a friendly npm package like chalk, which gives some colors for texts or helps make fonts style. I used readline-sync to take user input, which will be essential to interact with the player (otherwise how will you play 😊).</p>
+            <p>4. The quiz will be interesting if it has competition so this quiz has got a leaderboard which will show your position according to your score.</p>
+            <p>5. To make it more interesting, a bonus question has been made, which will only be accessible only if a specific condition is met.</p>
+            <p>Now the most exciting part</p>  
+
+            <h1>The Code</h1>
+            <p>So the variable chalk and readlinesync are used to decorate and take player input, respectively. A leaderboard is an array of objects that will help us see the players’ scores, making it attractive and fun.</p>
+            <img src="/images/sec1.jpg" class="img-secondary" alt="code-snippet">
+            <p> Now we got some questions and a bonus question that we will play only if we answer all the other questions correctly.
+            I have a function funbegin whose purpose is to display the questions with their options and check whether the player’s answer is right or wrong. It also keeps track of your score.</p>
+            <img src="/images/sec2.jpg" class="img-secondary" alt="code-snippet">
+            <p>As we move on, I have displayed some rules for the quiz.</p>
+            <p>Now we call the functions for the first five questions. If the score is 50 the player can play bonus questions; better luck next time (you can see how I used the conditional statement in this sentence).</p>
+            <p>Your final score with the scoreboard has been displayed. You can check your score and check how you played against the other players.</p>
+            <p>Go Ahead and play the quiz.</p>
+            <iframe width="700px" height="500px"  src="https://repl.it/@KUNALGUPTA9/QnA?embed=1&output=1#index.js" frameborder="0px"></iframe>
+
+            <h1>Closing Thoughts</h1>
+            <p>I hope this implementation was easy to understand and easy to play. Any ideas and comments are welcome.</p>
+        </section>
+
+    <footer class="footer">
+    <div class="footer-header">Connect with Me on social media</div>
+    <ul class="social-links list-non-bullet">
+    <li class="list-item-inline"><a class="link" href ="https://github.com/DarkShadow20"><i class="bx bxl-github"></i></a></li>
+    <li class="list-item-inline"><a class="link" href ="https://twitter.com/Kunal8011"><i class="bx bxl-twitter"></i></i></a></li>
+    <li class="list-item-inline"><a class="link" href ="https://www.linkedin.com/in/kunal-gupta-2a635712b"><i class="bx bxl-linkedin"></i></a></li>
+    </ul>
+    </footer> 
+    </body>
+    </html>

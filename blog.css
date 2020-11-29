@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.blog{
+    max-width: 700px;
+    margin: auto;
+}
+.blog .secondary{
+    display: inline-block;
+    padding: 0px 0px 0px 500px;
+}
+.blog .blog-heading{
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    line-height: 60px;
+    margin: 3rem 0;
+}
+
+.blog p{
+    padding: 0.5rem;
+    line-height: 1.3rem;
+    font-size: large;
+    margin-top: 2em;
+}
+
+.blog .display-img{
+    display: block;
+    margin: auto;
+    border-radius: 1rem 1rem 1rem 1rem; 
+    height: 400px;
+    padding:1.5rem 0 0 0;
+}
+
+.blog .img-secondary{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    max-width: 700px;
+}
